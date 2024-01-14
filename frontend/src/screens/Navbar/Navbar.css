@@ -1,0 +1,55 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--page-padding);
+    background-color: var(--main-brand);
+    color: var(--light-shades);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    top: 0;
+    position: fixed;
+    z-index: 5;
+}
+
+.navbar-container img {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+}
+
+.owner{
+    display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+animation: rotateMenu 0.5s ease-in-out;
+}
+
+.menu a {
+    color: var(--light-shades);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: var(--dark-accent);
+    transform: translateY(5px);
+}
+
+
+@keyframes rotateMenu {
+    0% {
+        transform: rotateX(-90deg);
+    }
+    70% {
+        transform: rotateX(20deg);
+}
+    100% {
+        transform: rotateX(0deg);
+    }
+}

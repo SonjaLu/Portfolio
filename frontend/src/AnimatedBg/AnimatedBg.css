@@ -1,0 +1,90 @@
+.animated-section {
+    background-color: var(--dark-shades);
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+flex-direction: column;
+overflow: hidden;
+
+}
+
+.animated-row {
+    position: relative;
+    top: -100%;
+    left: -5%;
+    width: 200%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    transform: rotate(-30deg);
+}
+
+.animated-section svg {
+    width: 150px;
+    height: 150px;
+    fill: rgba (0, 0, 0, 0.1);
+    margin: 5px 5px;
+transition: 0.2s;
+}
+
+.animated-section svg:hover {
+    fill: var(--main-brand);
+    filter: drop-shadow(0 0 15px var(--main-brand));
+}
+
+.row1 {
+    animation: animate 120s linear infinite;
+   
+}
+
+.row2 {
+    animation: animate2 80s linear infinite;
+  
+}
+
+.animated-row:nth-child(even) .row1{
+    animation: animate3 120s linear infinite;
+   
+}
+
+/* .animated-row:nth-child(even) .row2{
+    animation: animate4 80s linear infinite;
+   
+} */
+
+@keyframes animate {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
