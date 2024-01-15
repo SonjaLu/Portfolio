@@ -33,6 +33,25 @@ background-size: 400% 400%;
 animation: gradient 4s ease infinite;
 }
 
+.btn{
+  background-color: var(--dark-shades);
+  color: var(--main-brand);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+width: fit-content;
+}
+
+.btn:hover{
+  background-color: var(--main-brand);
+  color: var(--light-shades);
+}
+.align-right{
+  margin-left: auto;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -65,6 +84,11 @@ animation: gradient 4s ease infinite;
     flex-direction: column;
     gap: var(--gap);
   }
+  .contact-container {
+    flex-direction: column;
+    
+  }
+
 }
 
 html {

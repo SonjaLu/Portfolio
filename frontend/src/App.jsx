@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import { Navbar, Landing, AboutMe, Technologies, Portfolio } from './screens'
+import { Navbar, Landing, AboutMe, Technologies, Portfolio, Contact } from './screens'
 
 
 
@@ -16,6 +16,7 @@ function App() {
     <AboutMe />
     <Technologies />
     <Portfolio />
+    <Contact />
     </div>
     </>
   );
