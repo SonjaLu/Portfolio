@@ -5,7 +5,7 @@ import  { Modal } from "../index.jsx"
 
 
 function Portfolio() {
-  const [currentIdx, setCurrentIdx] = useState(0)
+  const [currentIdx, setCurrentIdx] = useState(-1)
 
   const handleClick = (idx) => { setCurrentIdx(idx) }
   const clearCurrent = () => { setCurrentIdx(-1) }

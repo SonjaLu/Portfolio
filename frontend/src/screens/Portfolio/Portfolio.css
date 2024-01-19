@@ -3,7 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: var(--gap);
+    text-align: center;
 }
 
 .portfolio-projects-frame img {
