@@ -1,3 +1,12 @@
+import Tetrisdisplay from './Screenshots/Tetrisdisplay.png';
+import FullStackProject from './Screenshots/FullStackProject.png';
+import Travelblog from './Screenshots/Travelblog.png';
+import PersonnelManagement from './Screenshots/PersonnelManagement.png';
+import Pokedex from './Screenshots/PokedexAPIProject.png';
+import KDrama from './Screenshots/LittleLayoutProject.png';
+import Tictactoe from './Screenshots/TicTacToe.png';
+
+
 export const projects = [
     {
         title: "Tetris",
