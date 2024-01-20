@@ -6,7 +6,7 @@ import react from "./svg/react.svg?react";
 import sql from "./svg/sql.svg?react";
 import mongodb from "./svg/mongodb.svg?react";
 import js from "./svg/js.svg?react";
-import git from "./svg/git.svg?react";
+import cssicon from "./svg/css.svg?react";
 import bootstrap from "./svg/bootstrap.svg?react";
 
 export const tech = [
@@ -18,6 +18,6 @@ export const tech = [
     {name: "Github", image: github},
     {name: "MongoDB", image: mongodb},
     {name: "Figma", image: figma},
-    {name: "Git", image: git},
+    {name: "CSS", image: cssicon},
     {name: "Bootstrap", image: bootstrap},
 ]
