@@ -42,7 +42,7 @@ export const projects = [
         title: "K Drama",
         description: "Layout Project with css",
         image: KDrama,
-        url: "https://github.com/SonjaLu/LittleLayoutAndResponsivePage",
+        url: "https://sl-layout-project.netlify.app/",
     },
     {
         title: "TicTacToe",
