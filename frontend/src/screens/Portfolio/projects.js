@@ -36,7 +36,7 @@ export const projects = [
         title: "Pokedex",
         description: "Javascript-API-Project",
         image: Pokedex,
-        url: "",
+        url: "https://pokedex-sl.netlify.app/",
     },
     {
         title: "K Drama",

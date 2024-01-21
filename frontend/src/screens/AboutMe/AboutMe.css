@@ -12,6 +12,23 @@
     height: 250px;
   margin-right:20px;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    object-fit: cover;
+    background-color: black;
+    object-fit: contain;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+
+.my-img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: drop-shadow(0 0 15px var(--main-brand));
+}
+.img-effect {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: linear-gradient(90deg, rgba(18,24,36,1) 1%, rgba(22,147,172,1) 10%, rgba(18,24,36,1) 16%, rgba(18,24,36,1) 84%, rgba(22,147,172,1) 90%, rgba(18,24,36,1) 100%);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transition: all 0.5s ease-in-out;
 }

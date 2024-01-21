@@ -4,7 +4,7 @@ import aboutMeImage from './SL2422.jpg';
 function AboutMe() {
   return (
     <div id="aboutme" className="aboutme-container">
-     <img className="my-img" src={aboutMeImage} alt="Portrait" />
+     <div className="my-img"><img className="my-img img-effect"src={aboutMeImage} alt="Portrait" /></div>
       <div>
         <h1>About Me</h1>
         <p>Hello there! I'm Sonja Lueg, a Full Stack Developer with a passion for crafting seamless, efficient digital solutions. I take pride in my ability to translate complex technical challenges into user-friendly experiences.<br></br>
