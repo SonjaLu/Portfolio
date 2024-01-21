@@ -50,10 +50,10 @@ export const projects = [
         image: Tictactoe,
         url: "",
     },
-    {
-        title: "",
-        description: "",
-        image: "",
-        url: "",
-    }
+    // {
+    //     title: "",
+    //     description: "",
+    //     image: "",
+    //     url: "",
+    // }
 ]
