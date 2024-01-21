@@ -48,7 +48,7 @@ export const projects = [
         title: "TicTacToe",
         description: "simple javascript project",
         image: Tictactoe,
-        url: "",
+        url: "https://tictactoe-sl.netlify.app/",
     },
     // {
     //     title: "",
