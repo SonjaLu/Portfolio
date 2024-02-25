@@ -37,7 +37,7 @@ export const projects = [
         title: "React TicTacToe",
         description: "fun React project",
         image: ReactTicTacToe,
-        url: "https://tictactoe-sl.netlify.app/",
+        url: "https://react-tictactoe24.netlify.app",
     },
     {
         title: "Pokedex",
