@@ -5,6 +5,7 @@ import PersonnelManagement from './Screenshots/PersonnelManagement.png';
 import Pokedex from './Screenshots/PokedexAPIProject.png';
 import KDrama from './Screenshots/LittleLayoutProject.png';
 import Tictactoe from './Screenshots/TicTacToe.png';
+import ReactTicTacToe from './Screenshots/ReactTicTacToe.png';
 
 
 export const projects = [
@@ -31,6 +32,12 @@ export const projects = [
         description: "office tool in React, exciting layout",
         image: PersonnelManagement,
         url: "https://github.com/SonjaLu/PersonnelManagement",
+    },
+    {
+        title: "React TicTacToe",
+        description: "fun React project",
+        image: ReactTicTacToe,
+        url: "https://tictactoe-sl.netlify.app/",
     },
     {
         title: "Pokedex",
