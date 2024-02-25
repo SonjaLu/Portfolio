@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import "./Navbar.css"
-import hambtn from "../../../src/assets/hamburger-menu.svg"
+import hambtn from "../../assets/hamburger-menu.svg"
 
 function Navbar() {
    const [showLinks, setShowLinks] = useState(true);
