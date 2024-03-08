@@ -6,6 +6,7 @@ import Pokedex from './Screenshots/PokedexAPIProject.png';
 import KDrama from './Screenshots/LittleLayoutProject.png';
 import Tictactoe from './Screenshots/TicTacToe.png';
 import ReactTicTacToe from './Screenshots/ReactTicTacToe.png';
+import RefPortal from './Screenshots/RefPortal.png';
 
 
 export const projects = [
@@ -57,10 +58,10 @@ export const projects = [
         image: Tictactoe,
         url: "https://tictactoe-sl.netlify.app/",
     },
-    // {
-    //     title: "",
-    //     description: "",
-    //     image: "",
-    //     url: "",
-    // }
+    {
+        title: "React-Refs-Portal",
+        description: "practicing refs ans portals",
+        image: RefPortal,
+        url: "https://react-ref-portal.netlify.app/",
+    }
 ]
