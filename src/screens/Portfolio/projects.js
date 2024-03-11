@@ -7,6 +7,7 @@ import KDrama from './Screenshots/LittleLayoutProject.png';
 import Tictactoe from './Screenshots/TicTacToe.png';
 import ReactTicTacToe from './Screenshots/ReactTicTacToe.png';
 import RefPortal from './Screenshots/RefPortal.png';
+import ProjectManagement from './Screenshots/ProjectManagement.png'
 
 
 export const projects = [
@@ -21,6 +22,12 @@ export const projects = [
         description: "React-Vite-MongoDB-Project",
         image: FullStackProject,
         url: "https://github.com/SonjaLu/React-MongoDB-Project",
+    },
+    {
+        title: "React Projects & Tasks",
+        description: "React-Tailwind-Project",
+        image: ProjectManagement,
+        url: "https://projectsandtasks.netlify.app/",
     },
     {
         title: "Travelblog",
